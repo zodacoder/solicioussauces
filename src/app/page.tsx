@@ -1,5 +1,6 @@
 import Image from "next/image";
+import MaxwidWrapper from "./components/MaxwidWrapper";
 
 export default function Home() {
-  return  <p>I AM ZODACODER</p>
+  return  <MaxwidWrapper children={undefined}></MaxwidWrapper>
 }
