@@ -2,24 +2,24 @@ import Image from "next/image";
 import MaxwidWrapper from "./components/MaxwidWrapper";
 import Link from "next/link";
 import { Button, buttonVariants } from "./components/button";
-import { Check } from "lucide-react";
+import { BadgeCheck, Check } from "lucide-react";
 
 
 const Pperks = [
   {
     name: "High Quality Ingredients",
-    Icon: Check,
+    Icon: BadgeCheck,
     description: "Crafted with locally-sourced, sustainable produce."
   },
   {
-    name: "High Quality Ingredients",
-    Icon: Check,
-    description: "Crafted with locally-sourced, sustainable produce."
+    name: "Costs",
+    Icon: BadgeCheck,
+    description: "Find the perfect heat level for your taste – from mild to blazing hot."
   },
   {
-      name: "High Quality Ingredients",
-      Icon: Check,
-      description: "Crafted with locally-sourced, sustainable produce."
+      name: "Free Samples and Tasting Kits ",
+      Icon: BadgeCheck,
+      description: "Subcribe to our emails and recieve a free sample kit with our 3 flavors, only pay for shipping."
   
 
   }
