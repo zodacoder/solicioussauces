@@ -1,7 +1,7 @@
 import Image from "next/image";
 import MaxwidWrapper from "./components/MaxwidWrapper";
 import Link from "next/link";
-import { buttonVariants } from "./components/button";
+import { Button, buttonVariants } from "./components/button";
 
 export default function Home() {
   return  <MaxwidWrapper>
@@ -17,8 +17,8 @@ export default function Home() {
             highest quality standards.
              </p>{/* end of hero section of the page*/}
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>
-           <Link href='/products' className={buttonVariants()}>Browse Favorites</Link> {/* allows button styling basic but very clean*/}
-            
+           <Link href='/products' className={buttonVariants()}>Browse Trending</Link> {/* allows button styling basic but very clean*/}
+            <Button variant='ghost'>Our product promise</Button>
             </div>   {/*for buttons*/}
   </div>
   </MaxwidWrapper>
