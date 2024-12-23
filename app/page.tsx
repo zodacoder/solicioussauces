@@ -21,6 +21,7 @@ export default function Home() {
             <Button variant='ghost'>Our product promise</Button>
             </div>   {/*for buttons*/}
   </div>
+  {/*TODO: Add products list*/}
   </MaxwidWrapper>
 }
  
