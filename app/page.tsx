@@ -18,7 +18,7 @@ export default function Home() {
              </p>{/* end of hero section of the page*/}
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>
            <Link href='/products' className={buttonVariants()}>Browse Trending</Link> {/* allows button styling basic but very clean*/}
-            <Button variant='ghost'>Our product promise</Button>
+            <Button variant='ghost'>Our product promise</Button>{/*hero-section button*/}
             </div>   {/*for buttons*/}
   </div>
   {/*TODO: Add products list*/}
