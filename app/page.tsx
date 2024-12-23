@@ -17,7 +17,7 @@ export default function Home() {
             highest quality standards.
              </p>{/* end of hero section of the page*/}
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>
-           <Link href='/products' className={buttonVariants()}>Browse Favorites</Link> 
+           <Link href='/products' className={buttonVariants()}>Browse Favorites</Link> {/* allows button styling basic but very clean*/}
             
             </div>   {/*for buttons*/}
   </div>
