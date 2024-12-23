@@ -2,6 +2,29 @@ import Image from "next/image";
 import MaxwidWrapper from "./components/MaxwidWrapper";
 import Link from "next/link";
 import { Button, buttonVariants } from "./components/button";
+import { Check } from "lucide-react";
+
+
+const Pperks = [
+  {
+    name: "High Quality Ingredients",
+    Icon: Check,
+    description: "Crafted with locally-sourced, sustainable produce."
+  },
+  {
+    name: "High Quality Ingredients",
+    Icon: Check,
+    description: "Crafted with locally-sourced, sustainable produce."
+  },
+  {
+      name: "High Quality Ingredients",
+      Icon: Check,
+      description: "Crafted with locally-sourced, sustainable produce."
+  
+
+  }
+]
+
 
 export default function Home() {
  
@@ -27,7 +50,9 @@ export default function Home() {
   <section className='border-t border-gray-200 bg-gray-50'>
 
   <MaxwidWrapper className='py-20'>
-    <div className='grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'></div>{/* this section holds products?? not sure yet*/ }
+    <div className='grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
+      
+      </div>{/* this is unique features section what makes solicious different from competition*/ }
     </MaxwidWrapper> 
 
   </section>
