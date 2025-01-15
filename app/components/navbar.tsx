@@ -1,5 +1,7 @@
-import { icons, Link } from "lucide-react"
+import Link from "next/link"
 import MaxwidWrapper from "./MaxwidWrapper"
+import { Icons } from "./icons"
+
 
 const NavBar = () => {
 return (
@@ -14,7 +16,8 @@ return (
               <div className='ml-4 flex lg:ml-0'>
               {/*TODO: ADD SOLICIOUS LOGO */}
               <Link href='/'>{/*slash will be home page */}
-              <icons.logo className='h-10 w-10'></icons.logo>
+
+              <Icons.logo className='ml-4 flex lg:ml-0'></Icons.logo>
               </Link>
               </div>
             </div>
