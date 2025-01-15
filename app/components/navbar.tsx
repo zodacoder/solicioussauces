@@ -1,6 +1,7 @@
 import Link from "next/link"
 import MaxwidWrapper from "./MaxwidWrapper"
 import { Icons } from "./Icons"
+import NavItems from "./NavItems"
 
 
 const NavBar = () => {
