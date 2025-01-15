@@ -8,7 +8,38 @@ export const PRODUCT_CATEGORIES =[
             href: "#",
             imageSrc: "/nav/ui-kits/mixed.jpg"
         },
+        {
+            name: " New Arrivals",
+            href: "#",
+            imageSrc: "/nav/ui-kits/blue.jpg"
+        },
+        {
+            name: "Best sellers",
+            href: "#",
+            imageSrc: "/nav/ui-kits/purple.jpg"
+        },
     ],
+},
+{
+label: "Icons",
+value: "icons" as const,
+featured: [
+    {
+        name: "Favorite Icon picks",
+        href: "#",
+        imageSrc: "/nav/icons/mixed.jpg"
+    },
+    {
+        name: " New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg"
+    },
+    {
+        name: "Best sellers",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg"
+    },
+],
 }
 
 ]
