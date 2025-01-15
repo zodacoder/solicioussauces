@@ -1,7 +1,7 @@
 import { LucideProps } from "lucide-react";
 
 export const Icons ={
-    logo:(props: LucideProps)=>{{/*TODO add in my own svg logo for solicious*/}
+    logo:(props: LucideProps)=>(
         <svg {...props}viewBox="0 0 512 512">
     <g>
     <path
@@ -85,6 +85,5 @@ export const Icons ={
     ></path>
     </g>
 </svg>
-    }
-
+    )
 }
