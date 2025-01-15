@@ -1,6 +1,6 @@
 import Link from "next/link"
 import MaxwidWrapper from "./MaxwidWrapper"
-import { Icons } from "./icons"
+import { Icons } from "./Icons"
 
 
 const NavBar = () => {
@@ -16,8 +16,7 @@ return (
               <div className='ml-4 flex lg:ml-0'>
               {/*TODO: ADD SOLICIOUS LOGO */}
               <Link href='/'>{/*slash will be home page */}
-
-              <Icons.logo className='ml-4 flex lg:ml-0'></Icons.logo>
+              <Icons.logo className='h-10 w-10'></Icons.logo>
               </Link>
               </div>
             </div>
